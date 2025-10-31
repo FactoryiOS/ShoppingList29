@@ -1,7 +1,6 @@
 {
   "images" : [
     {
-      "filename" : "fast-food-outline.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -12,7 +11,6 @@
           "value" : "dark"
         }
       ],
-      "filename" : "fast-food-outline 1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
