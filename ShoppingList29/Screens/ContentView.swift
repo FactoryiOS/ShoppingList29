@@ -16,8 +16,7 @@ struct ContentView: View {
                 .foregroundStyle(Color.ypACBlue)
                 .clipShape(.circle)
                 .overlay {
-                    Image("snow-outline")
-                        .renderingMode(.template)
+                    Image(.bandageOutline)
                         .colorInvert()
             }
             
@@ -26,8 +25,7 @@ struct ContentView: View {
                 .foregroundStyle(Color.ypACBlue)
                 .clipShape(.circle)
                 .overlay {
-                    Image("fast-food-outline")
-                        .renderingMode(.template)
+                    Image(.fastFoodOutline)
                         .foregroundStyle(.white)
             }
             
