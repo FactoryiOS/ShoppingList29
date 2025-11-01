@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Список покупок" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQd-Df-RMk">
+                                <rect key="frame" x="67" y="724" width="306" height="119"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="42"/>
+                                <color key="textColor" name="YP Turquoise"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ZeroShoppingListsLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Pr6-4Y-iDZ">
+                                <rect key="frame" x="0.0" y="258" width="440" height="440"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Pr6-4Y-iDZ" secondAttribute="height" multiplier="1:1" id="Lfm-U6-iYY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Pr6-4Y-iDZ" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="9tA-uH-2rh"/>
+                            <constraint firstItem="cQd-Df-RMk" firstAttribute="top" secondItem="Pr6-4Y-iDZ" secondAttribute="bottom" constant="26" id="GjH-sn-WIk"/>
+                            <constraint firstItem="cQd-Df-RMk" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="RIb-Vg-I8G"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="cQd-Df-RMk" secondAttribute="bottom" constant="45" id="iue-5x-idN"/>
+                            <constraint firstItem="Pr6-4Y-iDZ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="kUi-ve-tp7"/>
+                            <constraint firstItem="Pr6-4Y-iDZ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ml2-Ud-jAr"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="Pr6-4Y-iDZ" secondAttribute="trailing" id="tnx-el-gaI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.744186046511629" y="374.56395348837208"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ZeroShoppingListsLogo" width="277" height="277"/>
+        <namedColor name="YP Turquoise">
+            <color red="0.078431372549019607" green="0.47843137254901963" blue="0.52156862745098043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
